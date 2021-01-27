@@ -1,7 +1,7 @@
 // Something is wrong either here or in burgers.js which is preventing the data from
 // the database from being displayed and also causing a crash when its deployed to heroku
-// I fell behind due to covid and failed to catch back up in time. I feel like im close but I couldn't figure
-// it out in time. 
+//  I feel like im close but I couldn't figure it out in time. 
+// I'm pretty confident the error is in the code beause the app will build successfully on Heroku it just crashes though.
 
 
 
