@@ -3,7 +3,7 @@ var express = require("express");
 var router = express.Router();
 
 // Importing burger model
-var burger = require("../models/burgers");
+var burger = require("../models/burgers.js");
 
 //Creating routes
 router.get("/", function(req, res){
@@ -26,7 +26,7 @@ router.post("/api/burgers", function(req, res){
     });
 });
 
-router.put("/api/cats/:id", function(req, res){
+router.put("/api/burgers/:id", function(req, res){
     var condition = "id = " + req.params.id;
 
     console.log("condtion", condition);
